@@ -16,28 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgb-b8-vK1">
-                                <rect key="frame" x="160" y="138" width="107" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh milk on demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcB-Vb-91O">
                                 <rect key="frame" x="129" y="194" width="168" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYS-k3-9QH">
+                                <rect key="frame" x="156" y="384" width="124" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2G0-cq-djJ">
+                                <rect key="frame" x="164" y="302" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Mgb-b8-vK1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="5Tu-PH-FZc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BcB-Vb-91O" secondAttribute="bottom" constant="647" id="5fj-O0-1K4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mgb-b8-vK1" secondAttribute="trailing" constant="147" id="GSJ-p0-n26"/>
-                            <constraint firstItem="Mgb-b8-vK1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="U7b-QY-g8c"/>
                             <constraint firstItem="BcB-Vb-91O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="cXi-Fw-Qsy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BcB-Vb-91O" secondAttribute="trailing" constant="117" id="i1o-zF-dwb"/>
-                            <constraint firstItem="BcB-Vb-91O" firstAttribute="top" secondItem="Mgb-b8-vK1" secondAttribute="bottom" constant="8" symbolic="YES" id="jm7-3a-XKy"/>
                         </constraints>
                     </view>
                 </viewController>
